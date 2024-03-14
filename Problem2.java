@@ -3,6 +3,10 @@ public class Solution {
      * @param s: A string
      * @return: All words that can be formed
      */
+     //TC: O(k^(l/k)
+    //(l/k) -- number of groups
+   // k -- (avg  size of each group)
+     //SC: O(l)
      List<String> result;
     public String[] bracketExpansion(String s) {
         // write your code here
